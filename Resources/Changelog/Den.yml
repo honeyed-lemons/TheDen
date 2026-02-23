@@ -17417,3 +17417,18 @@ Entries:
   id: 1707
   time: '2026-02-23T08:33:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2459
+- author: Pinkbat5
+  changes:
+    - type: Add
+      message: >-
+        Batter up! You can now rep the NT dogs with a cap or full uniform. Craft
+        them at the uniform printer, or get the costume bundle from your loadout
+        or theatre vend. Use an EMAG on the printer or vendor for a special
+        surprise...
+    - type: Add
+      message: All handheld flags are now craftable at the uniform printer.
+    - type: Fix
+      message: Fixed a typo in the corporate baseball cap description.
+  id: 1708
+  time: '2026-02-23T18:55:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2460
