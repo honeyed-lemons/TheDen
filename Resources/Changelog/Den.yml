@@ -17439,3 +17439,12 @@ Entries:
   id: 1709
   time: '2026-02-23T20:38:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2453
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: >-
+        Small nerfs to the Skias' shadows with small buffs to their drained
+        minions.
+  id: 1710
+  time: '2026-02-23T22:00:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2457
