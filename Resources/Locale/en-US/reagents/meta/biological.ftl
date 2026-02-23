@@ -15,6 +15,7 @@
 # SPDX-FileCopyrightText: 2025 foxcurl
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 # SPDX-FileCopyrightText: 2026 entings
+# SPDX-FileCopyrightText: 2026 pocl v
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
