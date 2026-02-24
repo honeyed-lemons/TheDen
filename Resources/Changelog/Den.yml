@@ -17489,3 +17489,14 @@ Entries:
   id: 1715
   time: '2026-02-24T09:30:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2449
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Xeno-B-Gone body dissolution tacks - dissolve vent critter bodies on the
+        spot and get on with your day. Issued to janitors roundstart, resupply
+        via cargo. Xeno-B-Gone is not responsible for any injuries caused by
+        bypassing critical safety features. 
+  id: 1716
+  time: '2026-02-24T09:31:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2418
