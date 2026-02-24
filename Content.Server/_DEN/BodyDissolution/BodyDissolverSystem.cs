@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 MajorMoth
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Server.Atmos.EntitySystems;
 using Content.Server.Fluids.EntitySystems;
 using Content.Shared.Chat;

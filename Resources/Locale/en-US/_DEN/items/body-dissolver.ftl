@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 MajorMoth
+#
+# SPDX-License-Identifier: MIT
+
 -body-dissolution-fail = detected! Cannot dissolve.
 
 body-dissolution-fail-not-dissolvable = Incompatibility {-body-dissolution-fail}

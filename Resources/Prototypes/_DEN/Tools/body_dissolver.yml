@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 MajorMoth
+#
+# SPDX-License-Identifier: MIT
+
 - type: entity
   name: body dissolver tack
   description: A specialized piece of janitorial equipment used to dispose of the bodies of vent critters and other hostile creatures.
