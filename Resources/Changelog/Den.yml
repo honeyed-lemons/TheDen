@@ -17459,3 +17459,10 @@ Entries:
   id: 1711
   time: '2026-02-24T06:27:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2464
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: AI Emergency Sealant was removed from the AI catalog.
+  id: 1712
+  time: '2026-02-24T06:57:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2463
