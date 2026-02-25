@@ -17514,3 +17514,12 @@ Entries:
   id: 1718
   time: '2026-02-25T02:10:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2469
+- author: meatsmall
+  changes:
+    - type: Add
+      message: Added a spiked collar (colorable) to loadout.
+    - type: Tweak
+      message: Spiked wrist cuffs are now colorable.
+  id: 1719
+  time: '2026-02-25T14:48:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2471
