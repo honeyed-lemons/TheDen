@@ -1,4 +1,8 @@
-﻿# Computers: Base Game
+# SPDX-FileCopyrightText: 2026 Jakumba
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Computers: Base Game
 - type: entity
   parent: [BaseStructureComputerTabletop, ComputerAlert]
   id: ComputerTabletopAlert
