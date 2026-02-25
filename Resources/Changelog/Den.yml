@@ -17523,3 +17523,14 @@ Entries:
   id: 1719
   time: '2026-02-25T14:48:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2471
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Tea seeds can be obtained from the MegaSeed Servitor and the exotic
+        seeds crate. They will produce tea leaves, which can be dried in a
+        microwave, ground in a reagent grinder, mixed with water, and then
+        heated and stirred to produce tea.
+  id: 1720
+  time: '2026-02-25T14:49:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2470
