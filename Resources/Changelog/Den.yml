@@ -17507,3 +17507,10 @@ Entries:
   id: 1717
   time: '2026-02-24T17:38:36.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2465
+- author: portfiend
+  changes:
+    - type: Fix
+      message: Eternity maps now actually start with all research.
+  id: 1718
+  time: '2026-02-25T02:10:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2469
