@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Alex C
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Shared.Chemistry.Components.SolutionManager;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.EntitySystems;

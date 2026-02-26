@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Alex C
+#
+# SPDX-License-Identifier: MIT
+
 - type: reagentProductionType
   id: CumProduction
   reagent: Cum
