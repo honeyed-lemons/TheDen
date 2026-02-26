@@ -17564,3 +17564,10 @@ Entries:
   id: 1724
   time: '2026-02-26T15:55:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2472
+- author: Swissed_Fox
+  changes:
+    - type: Fix
+      message: (P.Acrux) Various fixes, see PR for details
+  id: 1725
+  time: '2026-02-26T19:46:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2475
