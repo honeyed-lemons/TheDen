@@ -17578,3 +17578,10 @@ Entries:
   id: 1726
   time: '2026-02-26T21:04:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2476
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: Fixed Listening Post failing to spawn
+  id: 1727
+  time: '2026-02-26T21:05:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2477
