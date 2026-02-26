@@ -17555,3 +17555,12 @@ Entries:
   id: 1723
   time: '2026-02-26T15:49:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2474
+- author: starlighthowls
+  changes:
+    - type: Add
+      message: Added a new animated husky tail!
+    - type: Fix
+      message: Fixed the lizard tail (large) not wagging.
+  id: 1724
+  time: '2026-02-26T15:55:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2472
