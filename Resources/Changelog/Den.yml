@@ -17571,3 +17571,10 @@ Entries:
   id: 1725
   time: '2026-02-26T19:46:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2475
+- author: portfiend
+  changes:
+    - type: Fix
+      message: Plasmamen can now equip envirosuit loadouts again.
+  id: 1726
+  time: '2026-02-26T21:04:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2476
