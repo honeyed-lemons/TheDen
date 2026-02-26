@@ -17585,3 +17585,12 @@ Entries:
   id: 1727
   time: '2026-02-26T21:05:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2477
+- author: honeyed-lemons
+  changes:
+    - type: Tweak
+      message: >-
+        Cumming is more intuitive! Just open the context menu of any fill-able
+        container and go ham (with consent)!
+  id: 1728
+  time: '2026-02-26T21:14:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2473
