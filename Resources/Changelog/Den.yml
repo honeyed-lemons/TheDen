@@ -17594,3 +17594,12 @@ Entries:
   id: 1728
   time: '2026-02-26T21:14:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2473
+- author: juniwoofs
+  changes:
+    - type: Tweak
+      message: Nerfed a lot of BSO gear
+    - type: Remove
+      message: Removed BSO primary weapons aside from the greatshield and greatsword
+  id: 1729
+  time: '2026-02-26T23:48:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2201
