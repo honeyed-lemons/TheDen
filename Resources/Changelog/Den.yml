@@ -17548,3 +17548,10 @@ Entries:
   id: 1722
   time: '2026-02-26T04:18:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2435
+- author: starlighthowls
+  changes:
+    - type: Fix
+      message: Slimes can now use 24 more markings.
+  id: 1723
+  time: '2026-02-26T15:49:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2474
