@@ -1,8 +1,5 @@
-using Content.Shared._DEN.ReagentProduction.Components;
-using Content.Shared._DEN.ReagentProduction.Events;
-using Content.Shared._DEN.ReagentProduction.Prototypes;
-using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Components.SolutionManager;
+using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.DoAfter;
 using Content.Shared.FixedPoint;
@@ -10,10 +7,13 @@ using Content.Shared.IdentityManagement;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Popups;
 using Content.Shared.Verbs;
+using Enumerable = System.Linq.Enumerable;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using static Content.Shared._DEN.ReagentProduction.Events.ReagentProductionEvents;
-using Enumerable = System.Linq.Enumerable;
+using Content.Shared._DEN.ReagentProduction.Components;
+using Content.Shared._DEN.ReagentProduction.Events;
+using Content.Shared._DEN.ReagentProduction.Prototypes;
 
 namespace Content.Shared._DEN.ReagentProduction.Systems;
 
@@ -31,15 +31,20 @@ public sealed class ReagentProductionSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-
         SubscribeLocalEvent<ReagentProducerComponent, ReagentProductionTypeAdded>(ProductionTypeAdded);
         SubscribeLocalEvent<ReagentProducerComponent, ReagentProductionTypeRemoved>(ProductionTypeRemoved);
 
         SubscribeLocalEvent<RefillableSolutionComponent, GetVerbsEvent<InteractionVerb>>(AddVerbs);
 
         SubscribeLocalEvent<ReagentProducerComponent, ReagentProductionFillEvent>(FinishFillDoAfter);
+        SubscribeLocalEvent<ReagentProducerComponent, MapInitEvent>(OnMapInit);
 
     }
+    private void OnMapInit(Entity<ReagentProducerComponent> ent, ref MapInitEvent args)
+    {
+        ent.Comp.NextUpdate = _gameTiming.CurTime + ent.Comp.UpdateInterval;
+    }
+
     public override void Update(float frameTime)
     {
         base.Update(frameTime);
@@ -53,11 +58,12 @@ public sealed class ReagentProductionSystem : EntitySystem
                 continue;
 
             producerComponent.NextUpdate += producerComponent.UpdateInterval;
+
             // for every production type the producer has
             foreach (var productionType in Enumerable.Select(producerComponent.ProductionTypes, productionTypeId => _protoManager.Index(productionTypeId)))
             {
                 // ensure there's a solution to add to
-                _solutionContainer.EnsureSolution(uid, productionType.SolutionName, out var solution);
+                _solutionContainer.EnsureSolution(uid, productionType.SolutionName, out var solution, productionType.MaximumCapacity);
 
                 if (solution == null)
                     continue;
