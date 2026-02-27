@@ -17603,3 +17603,28 @@ Entries:
   id: 1729
   time: '2026-02-26T23:48:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2201
+- author: Kelaris
+  changes:
+    - type: Tweak
+      message: >-
+        Improved the Miniature Energy Gun, PDW-9, Energy Gun, Rigged Laser Tag
+        Gun, Laser Rifle, Laser Cannon, and IK-60. Minor damage increases, major
+        magazine size increases, especially to longarms. See PR for details.
+    - type: Tweak
+      message: >-
+        Moved PDW-9 to Advanced Weapons (T2) research, as it has been slightly
+        improved, and the improved miniature energy gun has effectively taken
+        its place in Basic Weapons (T1) research.
+    - type: Tweak
+      message: >-
+        Removed EG-4 from being craftable, and removed it from HoS, Warden, and
+        Senior Officer loadouts.
+    - type: Tweak
+      message: >-
+        Moved the Portable Recharger to T2 arsenal research and reduced its size
+        from 4x4 to 3x3, and made it wearable in the belt slot
+    - type: Add
+      message: Added the PDW-9 to Senior Officer loadouts.
+  id: 1730
+  time: '2026-02-26T23:59:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2399
