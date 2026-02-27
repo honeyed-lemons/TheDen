@@ -1,0 +1,24 @@
+# - type: npcFaction
+#   id: BloodBrother
+#   hostile:
+#   - NanoTrasen
+#   - Zombie
+#   - SimpleHostile
+#   - Dragon
+#   - AllHostile
+#   - Wizard
+#   - Xenoborg
+
+- type: npcFaction
+  id: Conspirator
+  hostile:
+  - NanoTrasen
+  - Zombie
+  - SimpleHostile
+  - Dragon
+  - AllHostile
+  - LordsOfTheEndTime # Den
+  - SAN # Den
+  - Syndicate # Den
+  # - Wizard
+  # - Xenoborg
