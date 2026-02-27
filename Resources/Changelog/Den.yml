@@ -17628,3 +17628,14 @@ Entries:
   id: 1730
   time: '2026-02-26T23:59:54.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2399
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Added Conspirators from Harmony Station!
+    - type: Tweak
+      message: >-
+        Changed the Antag selection menu to allow opt in for Conspirators, turn
+        it on!
+  id: 1731
+  time: '2026-02-27T00:37:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2450
