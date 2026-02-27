@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Jakumba
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Server._Harmony.Objectives.Components;
 using Content.Shared.Objectives.Components;
 

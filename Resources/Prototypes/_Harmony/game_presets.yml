@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Jakumba
+#
+# SPDX-License-Identifier: MIT
+
 # - type: gamePreset
 #   id: SecretNukeops #For Admin Use: Runs Nukeops but shows "Secret" in lobby.
 #   alias:

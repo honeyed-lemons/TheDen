@@ -15,7 +15,7 @@
 # SPDX-FileCopyrightText: 2025 stellar-novas
 # SPDX-FileCopyrightText: 2026 Jakumba
 #
-# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: npcFaction
   id: Dragon

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Jakumba
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Server._Harmony.GameTicking.Rules.Components;
 using Content.Server.Antag;
 using Content.Server.GameTicking;

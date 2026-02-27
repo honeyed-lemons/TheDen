@@ -1,4 +1,8 @@
-﻿using Content.Server.Radio.Components;
+// SPDX-FileCopyrightText: 2026 Jakumba
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Server.Radio.Components;
 using Content.Shared.Implants;
 using Content.Shared.Implants.Components;
 using Robust.Shared.Containers;

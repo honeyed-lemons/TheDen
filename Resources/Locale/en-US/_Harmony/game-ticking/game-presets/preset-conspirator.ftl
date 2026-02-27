@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Jakumba
+#
+# SPDX-License-Identifier: MIT
+
 conspirator-objective-issuer = [color=#724F29]Conspiracy[/color]
 
 conspirator-role-greeting = 

@@ -1,4 +1,8 @@
-﻿using Content.Shared._Harmony.Conspirators.Components;
+// SPDX-FileCopyrightText: 2026 Jakumba
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Shared._Harmony.Conspirators.Components;
 using Content.Shared._Harmony.Conspirators.EntitySystems;
 using Content.Shared.Antag;
 using Content.Shared.StatusIcon.Components;
